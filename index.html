@@ -19,9 +19,10 @@
 </head>
 
 <body>
-
-
-  <header class="header_site">
+  <div class="whats_button">
+    <a href="#"><i class="sprite whats_btn"></i></a>
+  </div>
+  <header class="header_site" id="top">
     <div class="linha_superior_amarela"></div>
     <div class="container px-md-0 px-3">
       <div class="row">
@@ -38,19 +39,22 @@
                   <div class="icone_menu">
                     <i class="sprite tel_ico"></i>
                   </div>
+                  <a href="tel:413382-3534">
                   <span>41 3383-9500</span>
+                  </a>
                 </div>
                 <div class="telefone_menu d-flex">
                   <div class="icone_menu d-md-block d-none">
                     <i class="sprite cel_ico"></i>
                   </div>
-                  <span>41 98412-1957</span>
+                  <a href="tel:413382-3534"><span>41 98412-1957</span></a>
+                  
                 </div>
                 <div class="email_menu d-flex">
                   <div class="icone_menu">
                     <i class="sprite mail_ico"></i>
                   </div>
-                  <span>vendas@gsnbr.com.br • arino@gsnbr.com.br</span>
+                  <span><a href="mailto:vendas@gsnbr.com.br">vendas@gsnbr.com.br</a> • arino@gsnbr.com.br</span>
                 </div>
               </div>
             </div>
@@ -330,7 +334,7 @@
           </div>
         </div>
         <!-- Modal Produtos -->
-        <div class="modal fade" id="modalProdutos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="modalProdutos" tabindex="-1" role="dialog" aria-labelledby="modalProdutos"
           aria-hidden="true">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -533,7 +537,7 @@
         </div>
       </div>
       <!-- Modal Promoção -->
-      <div class="modal fade" id="modalPromocao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      <div class="modal fade" id="modalPromocao" tabindex="-1" role="dialog" aria-labelledby="modalPromocao"
         aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
@@ -569,7 +573,7 @@
       <div class="row">
         <div class="col-lg-8 info_contato">
           <h2 class="text-md-left text-center" data-aos="fade-up">Deixe seu contato, nós ligamos pra você</h2>
-          <form action="">
+          <form action="#">
             <div class="row">
               <div class="col-lg-9 col-md-9 mb-lg-0 mb-md-5 mb-3">
                 <div class="row">
@@ -635,7 +639,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-8 contato_forms order-md-2 order-1">
+          <div class="col-lg-6 col-md-8 contato_forms order-md-2 order-1 position-relative">
             <h2 class="text-md-left text-center" data-aos="fade-up">Formulário de Contato</h2>
             <form action="#">
               <div class="form-row">
@@ -655,7 +659,7 @@
                 </div>
               </div>
               <div class="form-row">
-                <textarea name="mensg" id="" cols="30" rows="10" class="form-control" placeholder="Mensagem"
+                <textarea name="mensg" id="msg" cols="30" rows="10" class="form-control" placeholder="Mensagem"
                   data-aos="fade-down"></textarea>
                 <button type="submit" class="enviar_mensagem" data-aos="fade-up">Enviar Mensagem</button>
               </div>
@@ -666,6 +670,11 @@
     </div>
   </section>
   <footer>
+      <div class="to_top">
+          <div class="top_btn">
+            <a href="#top"><i class="sprite top"></i></a>
+          </div>
+        </div>    
     <div class="container px-lg-0 px-3">
       <div class="footer_links">
         <div class="row">

@@ -65,6 +65,12 @@ i.mail_ico{
     align-items: center;
     padding-left: 80px;
 }
+.contato_menu{
+    a{
+        color: #FFF;
+        text-decoration: none;
+    }
+}
 .contato_menu > div {
     margin-right: 25px;
     align-items: center;
@@ -743,6 +749,7 @@ nav ul li a:before {
 // FOOTER
 
 footer{
+    position: relative;
     .footer_links{
         border-top: 1px solid #ecede7;
         padding-top: 6px;
@@ -1051,5 +1058,50 @@ footer{
 @media (min-width: 992px){
     .modal-lg {
         max-width: 718px;
+    }
+}
+
+
+// Flutuantes
+
+.whats_button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: .3s;
+    z-index: 99;
+    &:hover{
+        i{
+            transform: scale(1.1);
+        }
+    }
+    i{
+        width: 59px;
+        height: 60px;
+        display: block;
+        background-position: -311px -118px;
+        transition: .3s;
+    }
+}
+.to_top{
+    position: absolute;
+    bottom: 16px;
+    right: 10px;
+    z-index: 99999;
+}
+.top_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    height: 74px;
+    background: #FFF;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px 1px #00000024;
+    i{
+        width: 21px;
+        height: 27px;
+        background-position: -274px -118px;
+        display: block;
     }
 }
