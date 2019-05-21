@@ -1,0 +1,227 @@
+@media (min-width: 768px) and (max-width: 1024px) { //Tablet
+
+    header{
+        height: 193px;
+        background: url(../images/bg_topo_tablet.png) no-repeat center;
+    }
+    ul.navbar-nav.ml-auto {
+        flex-direction: row;
+    }
+    .menusup_cotacao {
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #333399;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: absolute;
+        text-align: right;
+        top: -22px;
+        right: 66px;
+    }
+    .menu_superior {
+        font-size: 13px;
+        color: #FFF;
+        height: 43px;
+        display: flex;
+        align-items: center;
+        padding-top: 19px;
+        justify-content: center;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        margin-top: 9px;
+        padding-left: 0 !important;
+    }
+    .logo_site {
+        position: relative;
+        top: 6px;
+    }
+    .carousel-caption{
+        width: 720px;
+    }
+    .produtos .itens_produtos .produto_padding{
+        &:nth-of-type(even){
+            padding-left: 0px;
+            padding-right: 0;
+        }
+        &:nth-of-type(odd){
+            padding-right: 0px;
+            padding-left: 0;
+        }            
+    }
+    .depoimentos .cada_depoimento {
+        margin-top: 40px;
+        text-align: center;
+        padding: 0 88px;
+    }
+    .promocao{
+        background-position: -255px;
+    }
+    .telefone{
+        word-break: break-all;
+    }
+    footer .footer_links .padding-footer {
+        padding-top: 17px;
+    }                    
+}
+
+@media (max-width: 480px) // Mobile
+{
+    .hamburger{
+        display: block;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .slick-next {
+        right: 10px;
+    }
+    .slick-prev {
+        left: 0px;
+    }    
+    header{
+        height: 175px;
+        background: url(../images/bg_topo_mobile.jpg) no-repeat bottom center;
+    }
+    .logo_site {
+        text-align: center;
+    }
+    .menu_superior {
+        font-size: 13px;
+        color: #FFF;
+        height: 43px;
+        display: flex;
+        align-items: center;
+        padding-left: 7px;
+        top: 20px;
+    }
+    .telefone_menu.d-flex {
+        margin-bottom: 10px;
+    }
+    .depoimentos .cada_depoimento {
+        margin-top: 40px;
+        text-align: center;
+        padding: 0px 47px;
+    }
+    .carousel-caption{
+        width: 320px;
+        h5{
+            font-size: 75px;
+            line-height: 75px;
+            span{
+                font-size: 40px;
+                line-height: 42px;
+            }
+        }
+    }
+    .carousel-item {
+        height: 497px;
+        img{
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    .cada_produto{
+        overflow: hidden;
+    }
+    .produtos .itens_produtos .produto_padding{
+        &:nth-of-type(even){
+            padding-left: 0px;
+            padding-right: 0;
+        }
+        &:nth-of-type(odd){
+            padding-right: 0px;
+            padding-left: 0;
+        }            
+    }
+    .diferenciais .cada_diferencial {
+        text-align: center;
+    }
+    .diferenciais .cada_diferencial .icone_diferencial {
+        justify-content: center;
+    }
+    .slick-list.draggable {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .enviar_mensagem{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .menu_footer {
+        justify-content: center !important;
+    }
+    footer .footer_links .nav-link {
+        font-size: 12px;
+        color: #333399;
+        font-weight: 600;
+        padding-left: 12px;
+        padding-right: 12px;
+        text-transform: uppercase;
+        border-right: 1px solid;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 9px;
+        &:last-child{
+            border: none;
+        }
+    }
+    .ligamos button.ligue_pramim{
+        width: 100%;
+    }
+    .mobileborder{
+        border: none !important;
+    }
+    .segmentos .slick-slide {
+        box-shadow: 2px 4px 3px 0px #2f2f3314;
+    }
+    .promocao {
+        height: 491px;
+        background-position: -416px;
+    }            
+    .promocao .desc_promocao h2 {
+        font-size: 50px;
+        font-weight: 800;
+        color: #FFF;
+        margin-bottom: 44px;
+        letter-spacing: -0.04em;
+    }
+    .promocao .desc_promocao {
+        position: relative;
+        margin-top: 40px;
+    } 
+    .segmentos{
+        .slick-next:before, .slick-prev:before{
+            content:'';
+            background: url(../images/sprite.png);
+            width: 33px;
+            height: 27px;
+            display: block;
+            opacity: 1;
+        }
+        .slick-next:before{
+          background-position: -380px -156px;
+        }
+        .slick-prev:before{
+          background-position: -415px -156px;;
+        }
+        .slick-next {
+            right: 5px;
+        }
+        .slick-prev {
+            left: -4px;
+        }
+    }
+    .modal-body {
+        padding: 25px 28px;
+        img{
+            max-width: 100%;
+        }
+    }                                                   
+}

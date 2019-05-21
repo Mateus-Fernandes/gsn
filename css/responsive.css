@@ -1,0 +1,272 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 3, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  header {
+    height: 193px;
+    background: url(../images/bg_topo_tablet.png) no-repeat center;
+  }
+  /* line 7, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  ul.navbar-nav.ml-auto {
+    flex-direction: row;
+  }
+  /* line 10, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .menusup_cotacao {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333399;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    text-align: right;
+    top: -22px;
+    right: 66px;
+  }
+  /* line 23, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .menu_superior {
+    font-size: 13px;
+    color: #FFF;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    padding-top: 19px;
+    justify-content: center;
+  }
+  /* line 32, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  nav.navbar.navbar-expand-lg.navbar-light {
+    margin-top: 9px;
+    padding-left: 0 !important;
+  }
+  /* line 36, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .logo_site {
+    position: relative;
+    top: 6px;
+  }
+  /* line 40, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .carousel-caption {
+    width: 720px;
+  }
+  /* line 44, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .produtos .itens_produtos .produto_padding:nth-of-type(even) {
+    padding-left: 0px;
+    padding-right: 0;
+  }
+  /* line 48, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .produtos .itens_produtos .produto_padding:nth-of-type(odd) {
+    padding-right: 0px;
+    padding-left: 0;
+  }
+  /* line 53, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .depoimentos .cada_depoimento {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0 88px;
+  }
+  /* line 58, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .promocao {
+    background-position: -255px;
+  }
+  /* line 61, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .telefone {
+    word-break: break-all;
+  }
+  /* line 64, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  footer .footer_links .padding-footer {
+    padding-top: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 71, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .hamburger {
+    display: block;
+  }
+  /* line 74, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  body {
+    overflow-x: hidden;
+  }
+  /* line 77, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .slick-next {
+    right: 10px;
+  }
+  /* line 80, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .slick-prev {
+    left: 0px;
+  }
+  /* line 83, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  header {
+    height: 175px;
+    background: url(../images/bg_topo_mobile.jpg) no-repeat bottom center;
+  }
+  /* line 87, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .logo_site {
+    text-align: center;
+  }
+  /* line 90, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .menu_superior {
+    font-size: 13px;
+    color: #FFF;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    top: 20px;
+  }
+  /* line 99, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .telefone_menu.d-flex {
+    margin-bottom: 10px;
+  }
+  /* line 102, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .depoimentos .cada_depoimento {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 47px;
+  }
+  /* line 107, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .carousel-caption {
+    width: 320px;
+  }
+  /* line 109, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .carousel-caption h5 {
+    font-size: 75px;
+    line-height: 75px;
+  }
+  /* line 112, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .carousel-caption h5 span {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  /* line 118, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .carousel-item {
+    height: 497px;
+  }
+  /* line 120, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .carousel-item img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  /* line 126, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+  }
+  /* line 130, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .cada_produto {
+    overflow: hidden;
+  }
+  /* line 134, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .produtos .itens_produtos .produto_padding:nth-of-type(even) {
+    padding-left: 0px;
+    padding-right: 0;
+  }
+  /* line 138, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .produtos .itens_produtos .produto_padding:nth-of-type(odd) {
+    padding-right: 0px;
+    padding-left: 0;
+  }
+  /* line 143, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .diferenciais .cada_diferencial {
+    text-align: center;
+  }
+  /* line 146, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .diferenciais .cada_diferencial .icone_diferencial {
+    justify-content: center;
+  }
+  /* line 149, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .slick-list.draggable {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  /* line 153, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .enviar_mensagem {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  /* line 157, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .menu_footer {
+    justify-content: center !important;
+  }
+  /* line 160, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  footer .footer_links .nav-link {
+    font-size: 12px;
+    color: #333399;
+    font-weight: 600;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-transform: uppercase;
+    border-right: 1px solid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 9px;
+  }
+  /* line 171, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  footer .footer_links .nav-link:last-child {
+    border: none;
+  }
+  /* line 175, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .ligamos button.ligue_pramim {
+    width: 100%;
+  }
+  /* line 178, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .mobileborder {
+    border: none !important;
+  }
+  /* line 181, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .segmentos .slick-slide {
+    box-shadow: 2px 4px 3px 0px #2f2f3314;
+  }
+  /* line 184, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .promocao {
+    height: 491px;
+    background-position: -416px;
+  }
+  /* line 188, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .promocao .desc_promocao h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFF;
+    margin-bottom: 44px;
+    letter-spacing: -0.04em;
+  }
+  /* line 195, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .promocao .desc_promocao {
+    position: relative;
+    margin-top: 40px;
+  }
+  /* line 200, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .segmentos .slick-next:before, .segmentos .slick-prev:before {
+    content: '';
+    background: url(../images/sprite.png);
+    width: 33px;
+    height: 27px;
+    display: block;
+    opacity: 1;
+  }
+  /* line 208, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .segmentos .slick-next:before {
+    background-position: -380px -156px;
+  }
+  /* line 211, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .segmentos .slick-prev:before {
+    background-position: -415px -156px;
+  }
+  /* line 214, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .segmentos .slick-next {
+    right: 5px;
+  }
+  /* line 217, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .segmentos .slick-prev {
+    left: -4px;
+  }
+  /* line 221, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .modal-body {
+    padding: 25px 28px;
+  }
+  /* line 223, ../../2019 - Fernandes Development/GSN/scss/responsive.scss */
+  .modal-body img {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
