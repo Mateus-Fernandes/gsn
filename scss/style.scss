@@ -3,6 +3,9 @@
 body{
 	font-family: 'Poppins', sans-serif;
 }
+html{
+    overflow-y: scroll; -webkit-overflow-scrolling: touch;
+}
 @media (min-width: 1200px) {
     .container{
         max-width: 1170px;
@@ -19,9 +22,10 @@ p{
     font-weight: normal;
 }
 header{
-	height: 89px;
-	background: url(../images/bg_topo.png) top center no-repeat;
-	width: 100%;
+    height: 89px;
+    background: url(../images/bg_topo.png) top center no-repeat #FFF;
+    width: 100%;
+    z-index: 20;
 }
 
 .sprite{
@@ -319,6 +323,7 @@ nav ul li a:before {
             background: #FFF;
             border-radius: 5px;
             transition: 0.3s;
+            height: 100%;
             &:hover{
                 box-shadow: 1px 1px 7px 5px #00000012;
             }
@@ -462,6 +467,7 @@ nav ul li a:before {
     padding-bottom: 30px;
     .slick-track{
         padding: 20px 0;
+        display: flex !important;
     }
     .slick-slide{
         margin-left: 5px;
@@ -469,6 +475,7 @@ nav ul li a:before {
         border-radius: 5px;
         background: #FFF;
         box-shadow: 2px 4px 11px 2px #2f2f3329;
+        height: inherit;
     }
     .cada_segmento{
         padding: 30px 0;
@@ -763,6 +770,11 @@ footer{
             text-transform: uppercase;
             padding: 0;
         }
+        .icone_red {
+            width: 37px;
+            height: 17px;
+            display: block;
+        }        
         .copy{
             span{
                 font-size: 12px;
@@ -1068,19 +1080,12 @@ footer{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    transition: .3s;
     z-index: 99;
-    &:hover{
-        i{
-            transform: scale(1.1);
-        }
-    }
     i{
         width: 59px;
         height: 60px;
         display: block;
         background-position: -311px -118px;
-        transition: .3s;
     }
 }
 .to_top{
@@ -1104,4 +1109,82 @@ footer{
         background-position: -274px -118px;
         display: block;
     }
+}
+
+//MODAL VIDEO
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+#myModal{
+    .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+  .modal-body {
+    position:relative;
+    padding:0px;
+  }
+  .close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    background: url(../images/sprite.png) no-repeat -234px -141px;
+    width: 27px;
+    height: 27px;
+    opacity: 1;       
+    span{
+        display:none;
+    }
+    opacity:1;
+  }
+}
+
+.button_play.video-btn {
+    display: block;
+    position: absolute;
+    background: url(../images/sprite.png);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+	width: 67px;
+    height: 67px;
+    background-position: 0 -164px;    
+    border: none;
+    cursor: pointer;
+}
+
+.slick-next, .slick-prev {
+    width: 37px;
+    height: 27px;
+}
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
 }
