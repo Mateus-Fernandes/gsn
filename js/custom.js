@@ -181,3 +181,17 @@ $(document).ready(function () {
     return false;
   });    
 });
+
+$(function(){
+  $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      console.log(scroll);
+      var os = $('footer').offset().top;
+      var ht = $('footer').height();
+      if(scroll > (os - 1000)){
+          $('.whats_button').addClass('bottom_size');
+      }else{
+        $('.whats_button').removeClass('bottom_size');
+      }
+  });
+});

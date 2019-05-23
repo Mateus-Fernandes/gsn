@@ -1090,7 +1090,7 @@ footer{
 }
 .to_top{
     position: absolute;
-    bottom: 16px;
+    bottom: 100px;
     right: 10px;
     z-index: 99999;
 }
@@ -1112,31 +1112,33 @@ footer{
 }
 
 //MODAL VIDEO
-
-.modal-dialog {
-      max-width: 800px;
-      margin: 30px auto;
+#ModalVideo{
+    .modal-dialog {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+  
+  
+  
+  .modal-body {
+    position:relative;
+    padding:0px;
   }
-
-
-
-.modal-body {
-  position:relative;
-  padding:0px;
+  .close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+  }
 }
-.close {
-  position:absolute;
-  right:-30px;
-  top:0;
-  z-index:999;
-  font-size:2rem;
-  font-weight: normal;
-  color:#fff;
-  opacity:1;
-}
+
 
 #myModal{
-    .modal-dialog {
+ .modal-dialog {
         max-width: 800px;
         margin: 30px auto;
     }
@@ -1187,4 +1189,8 @@ footer{
     top: 0;
     z-index: 1000;
     width: 100%;
+}
+
+.bottom_size{
+    bottom: 105px;
 }
