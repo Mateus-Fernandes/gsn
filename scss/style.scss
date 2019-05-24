@@ -800,8 +800,8 @@ footer{
 .hamburger {
     position: absolute;
     display: none;
-    top: 9px;
-    right: 24px;
+    top: -34px;
+    right: 25px;
     cursor: pointer;
     z-index: 99999999;
     padding: 10px 15px 5px;
@@ -896,7 +896,21 @@ footer{
     border-bottom: 1px solid #fff;
   }
   .open_menu .hamburger {
-    top: -13px;
+    top: -60px;
+  }
+  .mobile_menu{
+      .icone_menu {
+        min-width: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    a{
+        color: #FFF;
+    }
+    span{
+        color:#FFF;
+    }
   }
   .mobile_menu ul {
   padding: 0;
