@@ -1,29 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap");
-/* line 3, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 6, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 html {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 1200px) {
-  /* line 10, ../../2019 - Fernandes Development/GSN/scss/style.scss */
   .container {
     max-width: 1170px;
   }
 }
 
-/* line 14, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 form {
   position: relative;
   z-index: 9;
 }
 
-/* line 18, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 p {
   font-size: 16px;
   line-height: 26px;
@@ -31,7 +26,6 @@ p {
   font-weight: normal;
 }
 
-/* line 24, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 header {
   height: 89px;
   background: url(../images/bg_topo.png) top center no-repeat #FFF;
@@ -39,33 +33,28 @@ header {
   z-index: 20;
 }
 
-/* line 31, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .sprite {
   background: url(../images/sprite.png) no-repeat;
 }
 
-/* line 35, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .icone_menu i {
   width: 22px;
   height: 22px;
   display: block;
 }
 
-/* line 40, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 i.cel_ico {
   background-position: -29px 0;
   width: 16px;
   height: 22px;
 }
 
-/* line 45, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 i.mail_ico {
   width: 25px;
   height: 17px;
   background-position: -51px -3px;
 }
 
-/* line 51, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .menusup_cotacao {
   font-weight: 600;
   font-size: 14px;
@@ -76,13 +65,11 @@ i.mail_ico {
   align-items: center;
 }
 
-/* line 59, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .menusup_cotacao a {
   color: #333399;
   text-decoration: none;
 }
 
-/* line 64, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .menu_superior {
   font-size: 13px;
   color: #FFF;
@@ -92,24 +79,20 @@ i.mail_ico {
   padding-left: 80px;
 }
 
-/* line 73, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato_menu a {
   color: #FFF;
   text-decoration: none;
 }
 
-/* line 78, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato_menu > div {
   margin-right: 25px;
   align-items: center;
 }
 
-/* line 82, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .icone_menu {
   margin-right: 7px;
 }
 
-/* line 92, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .navbar-light .navbar-nav .nav-link {
   font-size: 15px;
   font-weight: bold;
@@ -120,12 +103,10 @@ i.mail_ico {
   position: relative;
 }
 
-/* line 104, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .navbar-light .navbar-nav .nav-item:last-child a.nav-link {
   margin-right: 0;
 }
 
-/* line 111, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .navbar-light .navbar-nav .nav-item a.active:before {
   content: '';
   position: absolute;
@@ -137,13 +118,11 @@ i.mail_ico {
 }
 
 /* stroke */
-/* line 126, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 nav.stroke ul li a,
 nav.fill ul li a {
   position: relative;
 }
 
-/* line 130, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 nav.stroke ul li a:after,
 nav.fill ul li a:after {
   position: absolute;
@@ -158,19 +137,16 @@ nav.fill ul li a:after {
   height: 4px;
 }
 
-/* line 143, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 nav.stroke ul li a:hover:after {
   width: 100%;
 }
 
-/* line 146, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
 
-/* line 153, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-caption {
   position: absolute;
   z-index: 10;
@@ -184,7 +160,6 @@ nav ul li a:before {
   transform: translate(-50%, -50%);
 }
 
-/* line 164, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-caption h5 {
   font-weight: 700;
   color: #FFF;
@@ -192,7 +167,6 @@ nav ul li a:before {
   line-height: 150px;
 }
 
-/* line 169, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-caption h5 span {
   display: block;
   font-size: 76px;
@@ -200,26 +174,22 @@ nav ul li a:before {
   font-weight: bold;
 }
 
-/* line 177, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-item img {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 182, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-item img.caption_img {
   left: unset;
   transform: initial;
   top: -44px;
 }
 
-/* line 187, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-indicators {
   bottom: 100px;
 }
 
-/* line 190, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-indicators li {
   position: relative;
   -ms-flex: 0 1 auto;
@@ -235,12 +205,10 @@ nav ul li a:before {
   background-color: #FFF;
 }
 
-/* line 208, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .divider_secao {
   text-align: center;
 }
 
-/* line 210, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .divider_secao .circulo_divider {
   width: 52px;
   height: 52px;
@@ -254,7 +222,6 @@ nav ul li a:before {
   transition: .3s;
 }
 
-/* line 221, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .divider_secao .circulo_divider:after {
   content: '';
   position: absolute;
@@ -266,7 +233,6 @@ nav ul li a:before {
   background: url(../images/sprite.png) no-repeat -158px 1px;
 }
 
-/* line 232, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .divider_secao h3 {
   font-weight: 300;
   font-size: 14px;
@@ -275,12 +241,10 @@ nav ul li a:before {
   top: -5px;
 }
 
-/* line 243, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos {
   padding-bottom: 80px;
 }
 
-/* line 245, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos h2 {
   font-size: 32px;
   color: #2f2f33;
@@ -288,17 +252,14 @@ nav ul li a:before {
   margin-bottom: 25px;
 }
 
-/* line 251, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos p {
   text-align: justify;
 }
 
-/* line 254, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos {
   margin-top: 30px;
 }
 
-/* line 256, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos h4 {
   font-weight: 600;
   color: #2f2f33;
@@ -306,45 +267,38 @@ nav ul li a:before {
   margin-bottom: 14px;
 }
 
-/* line 262, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos p {
   line-height: 19px;
   font-size: 14px;
   text-align: left;
 }
 
-/* line 267, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos .icone_quemsomos {
   margin-right: 25px;
 }
 
-/* line 269, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos .icone_quemsomos i {
   display: block;
 }
 
-/* line 272, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos .icone_quemsomos i.i_missao {
   width: 57px;
   height: 58px;
   background-position: -182px 0;
 }
 
-/* line 277, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos .icone_quemsomos i.i_visao {
   width: 60px;
   height: 29px;
   background-position: -243px 0;
 }
 
-/* line 282, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .quem_somos .itens_quemsomos .icone_quemsomos i.i_valores {
   width: 62px;
   height: 48px;
   background-position: -308px 0;
 }
 
-/* line 294, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .titulo_secao h2 {
   font-size: 32px;
   font-weight: bold;
@@ -352,7 +306,6 @@ nav ul li a:before {
   line-height: 42px;
 }
 
-/* line 300, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .titulo_secao p {
   color: #2f2f33;
   font-size: 16px;
@@ -361,24 +314,20 @@ nav ul li a:before {
   margin-bottom: 50px;
 }
 
-/* line 309, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos {
   background: #f1f1f1;
 }
 
-/* line 313, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .produto_padding:nth-of-type(even) {
   padding-left: 23px;
   padding-right: 0;
 }
 
-/* line 317, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .produto_padding:nth-of-type(odd) {
   padding-right: 23px;
   padding-left: 0;
 }
 
-/* line 322, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto {
   background: #FFF;
   border-radius: 5px;
@@ -386,12 +335,10 @@ nav ul li a:before {
   height: 100%;
 }
 
-/* line 327, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto:hover {
   box-shadow: 1px 1px 7px 5px #00000012;
 }
 
-/* line 330, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto .desc_produto {
   padding-top: 47px;
   padding-bottom: 38px;
@@ -399,7 +346,6 @@ nav ul li a:before {
   padding-right: 33px;
 }
 
-/* line 336, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto .imagem_produto {
   background: #fafafa;
   display: flex;
@@ -407,12 +353,10 @@ nav ul li a:before {
   justify-content: center;
 }
 
-/* line 341, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto .imagem_produto img {
   mix-blend-mode: multiply;
 }
 
-/* line 345, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto h3 {
   font-weight: 600;
   font-size: 22px;
@@ -421,14 +365,12 @@ nav ul li a:before {
   margin-bottom: 15px;
 }
 
-/* line 352, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto p {
   font-size: 13px;
   line-height: 23px;
   margin-bottom: 33px;
 }
 
-/* line 357, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto a.saiba_mais_btn {
   text-transform: uppercase;
   background: #333399;
@@ -441,18 +383,15 @@ nav ul li a:before {
   transition: 0.3s;
 }
 
-/* line 367, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .itens_produtos .cada_produto a.saiba_mais_btn:hover {
   background: #2f2f33;
 }
 
-/* line 373, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .paginacao_produtos {
   margin-top: 65px;
   margin-bottom: 60px;
 }
 
-/* line 376, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .produtos .paginacao_produtos span {
   font-size: 22px;
   font-weight: 500;
@@ -461,28 +400,23 @@ nav ul li a:before {
   margin-right: 19px;
 }
 
-/* line 388, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais {
   background: #333399;
   padding-bottom: 80px;
 }
 
-/* line 392, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .titulo_secao h2 {
   color: #FFF;
 }
 
-/* line 395, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .titulo_secao p {
   color: #FFF;
 }
 
-/* line 400, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .divider_secao h3 {
   color: #FFF;
 }
 
-/* line 404, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial {
   padding-left: 30px;
   padding-right: 30px;
@@ -491,12 +425,10 @@ nav ul li a:before {
   cursor: pointer;
 }
 
-/* line 410, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial:hover {
   transform: scale(1.1);
 }
 
-/* line 413, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial .icone_diferencial {
   margin-bottom: 25px;
   height: 62px;
@@ -505,47 +437,40 @@ nav ul li a:before {
   justify-content: start;
 }
 
-/* line 419, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial .icone_diferencial i {
   display: block;
 }
 
-/* line 422, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial .icone_diferencial .i_pagamentosf {
   width: 60px;
   height: 60px;
   background-position: 0 -31px;
 }
 
-/* line 427, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial .icone_diferencial .i_assistenciap {
   width: 82px;
   height: 62px;
   background-position: -70px -31px;
 }
 
-/* line 432, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial .icone_diferencial .i_desnvolvimentop {
   width: 89px;
   height: 55px;
   background-position: -375px -1px;
 }
 
-/* line 437, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial .icone_diferencial .i_produtose {
   width: 62px;
   height: 62px;
   background-position: -153px -60px;
 }
 
-/* line 442, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial .icone_diferencial .i_entregar {
   width: 48px;
   height: 41px;
   background-position: -226px -62px;
 }
 
-/* line 449, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial h3 {
   font-weight: 600;
   color: #FFF;
@@ -553,25 +478,21 @@ nav ul li a:before {
   line-height: 26px;
 }
 
-/* line 455, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .diferenciais .cada_diferencial p {
   color: #FFF;
   font-size: 14px;
   line-height: 24px;
 }
 
-/* line 466, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos {
   padding-bottom: 30px;
 }
 
-/* line 468, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .slick-track {
   padding: 20px 0;
   display: flex !important;
 }
 
-/* line 472, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .slick-slide {
   margin-left: 5px;
   margin-right: 5px;
@@ -581,7 +502,6 @@ nav ul li a:before {
   height: inherit;
 }
 
-/* line 480, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento {
   padding: 30px 0;
   text-align: center;
@@ -589,12 +509,10 @@ nav ul li a:before {
   cursor: pointer;
 }
 
-/* line 485, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento:hover {
   transform: scale(1.1);
 }
 
-/* line 488, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento h3 {
   font-weight: 600;
   font-size: 18px;
@@ -602,7 +520,6 @@ nav ul li a:before {
   margin-bottom: 15px;
 }
 
-/* line 494, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento p {
   font-size: 13px;
   line-height: 22px;
@@ -610,7 +527,6 @@ nav ul li a:before {
   padding: 0 30px;
 }
 
-/* line 500, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento {
   margin-bottom: 20px;
   height: 73px;
@@ -619,113 +535,95 @@ nav ul li a:before {
   justify-content: center;
 }
 
-/* line 506, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento i {
   display: block;
 }
 
-/* line 509, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento .i_agricola {
   width: 92px;
   height: 54px;
   background-position: -283px -61px;
 }
 
-/* line 514, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento .i_usina {
   width: 66px;
   height: 68px;
   background-position: -383px -58px;
 }
 
-/* line 519, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento .i_construcao {
   width: 63px;
   height: 64px;
   background-position: 0 -96px;
 }
 
-/* line 524, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento .i_pedreiras {
   width: 61px;
   height: 61px;
   background-position: -74px -100px;
 }
 
-/* line 529, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento .i_madereiras {
   width: 76px;
   height: 48px;
   background-position: -145px -125px;
 }
 
-/* line 534, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .cada_segmento .icone_segmento .i_terraplanagem {
   width: 76px;
   height: 48px;
   background-position: -145px -125px;
 }
 
-/* line 545, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .depoimentos {
   background: #333399;
   padding-bottom: 60px;
 }
 
-/* line 549, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .depoimentos .titulo_secao h2 {
   color: #FFF;
 }
 
-/* line 552, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .depoimentos .titulo_secao p {
   color: #FFF;
 }
 
-/* line 557, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .depoimentos .divider_secao h3 {
   color: #FFF;
 }
 
-/* line 561, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .depoimentos .cada_depoimento {
   margin-top: 40px;
   text-align: center;
   padding: 0 260px;
 }
 
-/* line 565, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .depoimentos .cada_depoimento p {
   color: #FFF;
   font-size: 16px;
   line-height: 34px;
 }
 
-/* line 570, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .depoimentos .cada_depoimento .nome_depoimento {
   font-size: 14px;
   color: #FFF;
 }
 
-/* line 579, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .promocao {
   position: relative;
   background: url(../images/promocao.jpg) center top;
   height: 594px;
 }
 
-/* line 584, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .promocao .divider_secao h3 {
   color: #FFF;
 }
 
-/* line 588, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .promocao .desc_promocao {
   position: relative;
   margin-top: 94px;
 }
 
-/* line 591, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .promocao .desc_promocao h2 {
   font-size: 56px;
   font-weight: 800;
@@ -733,7 +631,6 @@ nav ul li a:before {
   margin-bottom: 44px;
 }
 
-/* line 597, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .promocao .desc_promocao a.entre_contato {
   text-transform: uppercase;
   background: #333399;
@@ -746,17 +643,14 @@ nav ul li a:before {
   transition: 0.3s;
 }
 
-/* line 607, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .promocao .desc_promocao a.entre_contato:hover {
   background: #2f2f33;
 }
 
-/* line 616, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos {
   background: #e2e2e1;
 }
 
-/* line 618, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos button.ligue_pramim {
   text-transform: uppercase;
   background: #333399;
@@ -770,17 +664,14 @@ nav ul li a:before {
   transition: 0.3s;
 }
 
-/* line 629, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos button.ligue_pramim:hover {
   background: #2f2f33;
 }
 
-/* line 633, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos .info_contato {
   padding-top: 54px;
 }
 
-/* line 635, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos .info_contato h2 {
   font-size: 32px;
   font-weight: 800;
@@ -788,7 +679,6 @@ nav ul li a:before {
   margin-bottom: 25px;
 }
 
-/* line 641, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos .info_contato input {
   height: 51px;
   border: none;
@@ -797,26 +687,22 @@ nav ul li a:before {
   padding-left: 30px;
 }
 
-/* line 647, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos .info_contato input::placeholder {
   font-size: 12px;
   font-weight: 600;
   color: #2f2f33;
 }
 
-/* line 654, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .ligamos .imagem_guy img {
   left: -137px;
   position: relative;
   mix-blend-mode: multiply;
 }
 
-/* line 664, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato {
   margin-bottom: 30px;
 }
 
-/* line 666, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato h3 {
   font-size: 16px;
   font-weight: 600;
@@ -824,20 +710,17 @@ nav ul li a:before {
   margin-bottom: 30px;
 }
 
-/* line 672, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato a {
   color: #333399;
   text-decoration: none;
 }
 
-/* line 676, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato .telefone {
   font-weight: 800;
   color: #333399;
   font-size: 20px;
 }
 
-/* line 681, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato .icone_contato {
   margin-right: 15px;
   height: 22px;
@@ -845,26 +728,22 @@ nav ul li a:before {
   align-items: center;
 }
 
-/* line 686, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato .icone_contato i {
   display: block;
 }
 
-/* line 689, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato .icone_contato i.i_instagram {
   width: 21px;
   height: 20px;
   background-position: -387px -131px;
 }
 
-/* line 694, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .cada_contato .icone_contato i.i_facebook {
   width: 9px;
   height: 18px;
   background-position: -426px -132px;
 }
 
-/* line 702, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .contato_forms h2 {
   font-size: 32px;
   color: #2f2f33;
@@ -872,7 +751,6 @@ nav ul li a:before {
   margin-bottom: 27px;
 }
 
-/* line 708, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .contato_forms input {
   height: 51px;
   border: none;
@@ -883,14 +761,12 @@ nav ul li a:before {
   margin-bottom: 17px;
 }
 
-/* line 716, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .contato_forms input::placeholder {
   font-size: 12px;
   font-weight: 600;
   color: #2f2f33;
 }
 
-/* line 722, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .contato_forms textarea {
   height: 51px;
   border: none;
@@ -903,14 +779,12 @@ nav ul li a:before {
   padding-top: 27px;
 }
 
-/* line 732, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .contato_forms textarea::placeholder {
   font-size: 12px;
   font-weight: 600;
   color: #2f2f33;
 }
 
-/* line 738, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .contato_forms button.enviar_mensagem {
   text-transform: uppercase;
   background: #333399;
@@ -924,24 +798,20 @@ nav ul li a:before {
   transition: 0.3s;
 }
 
-/* line 749, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .contato .contato_forms button.enviar_mensagem:hover {
   background: #2f2f33;
 }
 
-/* line 758, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 footer {
   position: relative;
 }
 
-/* line 760, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 footer .footer_links {
   border-top: 1px solid #ecede7;
   padding-top: 6px;
   padding-bottom: 15px;
 }
 
-/* line 764, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 footer .footer_links .nav-link {
   font-size: 12px;
   color: #333399;
@@ -952,14 +822,17 @@ footer .footer_links .nav-link {
   padding: 0;
 }
 
-/* line 773, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 footer .footer_links .icone_red {
   width: 37px;
   height: 17px;
   display: block;
 }
 
-/* line 779, ../../2019 - Fernandes Development/GSN/scss/style.scss */
+footer .footer_links .icone_red img {
+  position: relative;
+  top: -4px;
+}
+
 footer .footer_links .copy span {
   font-size: 12px;
   font-weight: 600;
@@ -967,7 +840,6 @@ footer .footer_links .copy span {
   margin-right: 18px;
 }
 
-/* line 785, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 footer .footer_links .copy i.i_red {
   display: block;
   width: 37px;
@@ -975,13 +847,11 @@ footer .footer_links .copy i.i_red {
   background-position: -225px -118px;
 }
 
-/* line 792, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 footer .footer_links .padding-footer {
   padding-top: 13px;
 }
 
 /* start menu */
-/* line 800, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .hamburger {
   position: absolute;
   display: none;
@@ -992,12 +862,10 @@ footer .footer_links .padding-footer {
   padding: 10px 15px 5px;
 }
 
-/* line 809, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .hamburger span {
   vertical-align: middle;
 }
 
-/* line 812, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .hamburger .bars {
   display: block;
   position: relative;
@@ -1011,7 +879,6 @@ footer .footer_links .padding-footer {
   transition: all 0.2s ease;
 }
 
-/* line 824, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .hamburger .bars:before, .hamburger .bars:after {
   position: absolute;
   content: " ";
@@ -1025,17 +892,14 @@ footer .footer_links .padding-footer {
   transition: all 0.2s ease;
 }
 
-/* line 836, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .hamburger .bars:before {
   top: 10px;
 }
 
-/* line 839, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .hamburger .bars:after {
   bottom: 10px;
 }
 
-/* line 843, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .open_menu .hamburger .bars {
   background-color: transparent;
   -webkit-transition: all 0.2s ease;
@@ -1044,7 +908,6 @@ footer .footer_links .padding-footer {
   transition: all 0.2s ease;
 }
 
-/* line 850, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .open_menu .hamburger .bars::before {
   top: 0;
   -webkit-transform: rotate(-45deg);
@@ -1053,7 +916,6 @@ footer .footer_links .padding-footer {
   transform: rotate(-45deg);
 }
 
-/* line 857, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .open_menu .hamburger .bars::after {
   bottom: 0;
   -webkit-transform: rotate(45deg);
@@ -1062,7 +924,6 @@ footer .footer_links .padding-footer {
   transform: rotate(45deg);
 }
 
-/* line 865, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu {
   width: 290px;
   height: 100%;
@@ -1081,7 +942,6 @@ footer .footer_links .padding-footer {
   transition: all 0.2s ease;
 }
 
-/* line 882, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu ul li a {
   color: #ffffff;
   width: 100%;
@@ -1099,12 +959,10 @@ footer .footer_links .padding-footer {
   border-bottom: 1px solid #fff;
 }
 
-/* line 898, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .open_menu .hamburger {
   top: -60px;
 }
 
-/* line 902, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu .icone_menu {
   min-width: 24px;
   display: flex;
@@ -1112,29 +970,24 @@ footer .footer_links .padding-footer {
   justify-content: center;
 }
 
-/* line 908, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu a {
   color: #FFF;
 }
 
-/* line 911, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu span {
   color: #FFF;
 }
 
-/* line 915, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu ul {
   padding: 0;
   list-style: none;
   text-align: left;
 }
 
-/* line 920, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu li {
   width: 100%;
 }
 
-/* line 923, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .sticky {
   position: sticky;
   top: 0;
@@ -1142,12 +995,10 @@ footer .footer_links .padding-footer {
   z-index: 9999;
 }
 
-/* line 929, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu a:hover {
   color: white;
 }
 
-/* line 932, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .open_menu .mobile_menu {
   right: 0;
   opacity: 1;
@@ -1157,24 +1008,20 @@ footer .footer_links .padding-footer {
   transition: all 0.2s ease;
 }
 
-/* line 940, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu:hover {
   overflow-y: auto;
 }
 
-/* line 943, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .mobile_menu .socialTopo {
   margin: 0;
   justify-content: flex-end;
   padding-top: 10px;
 }
 
-/* line 949, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .open_menu .hamburger .bars:before, .open_menu .hamburger .bars:after {
   background: #FFF;
 }
 
-/* line 955, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 span.carousel-control-next-icon {
   background: url(../images/sprite.png);
   width: 33px;
@@ -1182,7 +1029,6 @@ span.carousel-control-next-icon {
   background-position: -83px 0;
 }
 
-/* line 961, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 span.carousel-control-prev-icon {
   background: url(../images/sprite.png);
   width: 33px;
@@ -1190,12 +1036,10 @@ span.carousel-control-prev-icon {
   background-position: -119px 0;
 }
 
-/* line 967, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .carousel-control-next, .carousel-control-prev {
   opacity: 1;
 }
 
-/* line 970, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .slick-next:before, .slick-prev:before {
   content: '';
   background: url(../images/sprite.png);
@@ -1204,27 +1048,22 @@ span.carousel-control-prev-icon {
   display: block;
 }
 
-/* line 977, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .slick-next:before {
   background-position: -83px 0;
 }
 
-/* line 980, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .slick-prev:before {
   background-position: -119px 0;
 }
 
-/* line 983, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .slick-next {
   right: -10px;
 }
 
-/* line 986, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .slick-prev {
   left: -35px;
 }
 
-/* line 991, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .slick-next:before, .segmentos .slick-prev:before {
   content: '';
   background: url(../images/sprite.png);
@@ -1233,43 +1072,35 @@ span.carousel-control-prev-icon {
   display: block;
 }
 
-/* line 998, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .slick-next:before {
   background-position: -83px 0;
 }
 
-/* line 1001, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .slick-prev:before {
   background-position: -119px 0;
 }
 
-/* line 1004, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .slick-next {
   right: -10px;
 }
 
-/* line 1007, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .segmentos .slick-prev {
   left: -35px;
 }
 
-/* line 1011, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal {
   background: #ffffffad;
 }
 
-/* line 1014, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-content {
   border: none;
   box-shadow: 1px 3px 9px 2px #0000001c;
 }
 
-/* line 1018, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-body {
   padding: 25px 75px;
 }
 
-/* line 1020, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-body h2 {
   font-size: 32px;
   font-weight: bold;
@@ -1278,14 +1109,12 @@ span.carousel-control-prev-icon {
   margin-top: 40px;
 }
 
-/* line 1027, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-body p {
   font-size: 14px;
   line-height: 24px;
   color: #9b9b9e;
 }
 
-/* line 1032, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-body h3 {
   font-weight: normal;
   font-size: 16px;
@@ -1294,7 +1123,6 @@ span.carousel-control-prev-icon {
   margin-bottom: 30px;
 }
 
-/* line 1040, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-body form input {
   height: 51px;
   border: none;
@@ -1305,14 +1133,12 @@ span.carousel-control-prev-icon {
   box-shadow: 1px 1px 4px 1px #0000000d;
 }
 
-/* line 1048, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-body form input::placeholder {
   font-size: 12px;
   font-weight: 600;
   color: #2f2f33;
 }
 
-/* line 1054, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-body form button.envia_mensagem_btn {
   text-transform: uppercase;
   background: #333399;
@@ -1325,13 +1151,11 @@ span.carousel-control-prev-icon {
   border: 0;
 }
 
-/* line 1067, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-header {
   border: none;
   height: 60px;
 }
 
-/* line 1070, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-header button.close {
   background: url(../images/sprite.png) no-repeat -234px -141px;
   width: 27px;
@@ -1342,19 +1166,16 @@ span.carousel-control-prev-icon {
   right: 47px;
 }
 
-/* line 1078, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .modal-header button.close span {
   display: none;
 }
 
 @media (min-width: 992px) {
-  /* line 1085, ../../2019 - Fernandes Development/GSN/scss/style.scss */
   .modal-lg {
     max-width: 718px;
   }
 }
 
-/* line 1093, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .whats_button {
   position: fixed;
   bottom: 20px;
@@ -1362,7 +1183,6 @@ span.carousel-control-prev-icon {
   z-index: 99;
 }
 
-/* line 1098, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .whats_button i {
   width: 59px;
   height: 60px;
@@ -1370,7 +1190,6 @@ span.carousel-control-prev-icon {
   background-position: -311px -118px;
 }
 
-/* line 1105, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .to_top {
   position: absolute;
   bottom: 100px;
@@ -1378,7 +1197,6 @@ span.carousel-control-prev-icon {
   z-index: 99999;
 }
 
-/* line 1111, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .top_btn {
   display: flex;
   align-items: center;
@@ -1390,7 +1208,6 @@ span.carousel-control-prev-icon {
   box-shadow: 1px 2px 5px 1px #00000024;
 }
 
-/* line 1120, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .top_btn i {
   width: 21px;
   height: 27px;
@@ -1398,19 +1215,16 @@ span.carousel-control-prev-icon {
   display: block;
 }
 
-/* line 1130, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 #ModalVideo .modal-dialog {
   max-width: 800px;
   margin: 30px auto;
 }
 
-/* line 1137, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 #ModalVideo .modal-body {
   position: relative;
   padding: 0px;
 }
 
-/* line 1141, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 #ModalVideo .close {
   position: absolute;
   right: -30px;
@@ -1422,19 +1236,16 @@ span.carousel-control-prev-icon {
   opacity: 1;
 }
 
-/* line 1155, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 #myModal .modal-dialog {
   max-width: 800px;
   margin: 30px auto;
 }
 
-/* line 1159, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 #myModal .modal-body {
   position: relative;
   padding: 0px;
 }
 
-/* line 1163, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 #myModal .close {
   position: absolute;
   right: -30px;
@@ -1447,12 +1258,10 @@ span.carousel-control-prev-icon {
   opacity: 1;
 }
 
-/* line 1172, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 #myModal .close span {
   display: none;
 }
 
-/* line 1179, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .button_play.video-btn {
   display: block;
   position: absolute;
@@ -1468,13 +1277,11 @@ span.carousel-control-prev-icon {
   cursor: pointer;
 }
 
-/* line 1194, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .slick-next, .slick-prev {
   width: 37px;
   height: 27px;
 }
 
-/* line 1199, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .sticky.is-sticky {
   position: fixed;
   left: 0;
@@ -1484,9 +1291,6 @@ span.carousel-control-prev-icon {
   width: 100%;
 }
 
-/* line 1208, ../../2019 - Fernandes Development/GSN/scss/style.scss */
 .bottom_size {
   bottom: 105px;
 }
-
-/*# sourceMappingURL=style.css.map */
